@@ -125,3 +125,35 @@
 
             }
         }
+
+    .btncolor {
+            border: 2px solid #0b8aff;
+            background-color: #0b8aff;
+            color: #fff;
+            font-size: 20px;
+            transition: 0.5s;
+            padding: 10px 70px;
+        }
+
+        .btncolor:hover {
+            background-color: #f1f1f1;
+            border: 2px solid #0b8aff;
+            color: black;
+        }
+
+        .bg-white {
+            border-radius: 1.25rem !important;
+        }
+
+        .form-control {
+            color: #0b8aff;
+        }
+
+        @media (max-width:760px) {
+            .btncolor {
+
+                font-size: 16px;
+                width: 100%;
+
+            }
+        }
