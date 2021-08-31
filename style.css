@@ -101,6 +101,11 @@
             font-size: 43px;
             font-family: 'Tangerine', cursive;
         }
+        
+        input{
+              text-transform: capitalize;
+         }
+
 
         @media (max-width:789px) {
             .container-nav a {
