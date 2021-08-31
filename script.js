@@ -1,5 +1,4 @@
-
-        var submit = document.getElementById("submit");
+var submit = document.getElementById("submit");
 submit.addEventListener("click", function (ele) {
 ele.preventDefault();
 
@@ -130,10 +129,6 @@ var food = document.getElementById("food");
 console.log(food);
 var state = document.getElementById("state");
 var country = document.getElementById("country");
-
-
-
-
 
 //-----------------Function For creating Table--------------------------------------------------------
 function createTable(firstname, lastname, address, pincode, gender, food, state, country) {
